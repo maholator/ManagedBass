@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
-        <id>ManagedBass.Midi</id>
+        <id>ru.nnproject.ManagedBass.Midi</id>
         <version>3.0.0</version>
-        <title>ManagedBass.Midi</title>
+        <title>ru.nnproject.ManagedBass.Midi</title>
         <authors>MathewSachin</authors>
         <license type="file">LICENSE.md</license>
         <projectUrl>https://github.com/ManagedBass/ManagedBass/</projectUrl>
@@ -18,13 +18,13 @@
         <tags>Bass Wasapi Asio Record Audio Music</tags>
         <dependencies>
             <group targetFramework=".NETFramework4.5">
-                <dependency id="ManagedBass" version="3.0.0" />
+                <dependency id="ppy.ManagedBass" version="2022.1216.0" />
             </group>
             <group targetFramework=".NETStandard2.1">
-                <dependency id="ManagedBass" version="3.0.0" />
+                <dependency id="ppy.ManagedBass" version="2022.1216.0" />
             </group>
             <group targetFramework="Xamarin.iOS0.0">
-                <dependency id="ManagedBass" version="3.0.0" />
+                <dependency id="ppy.ManagedBass" version="2022.1216.0" />
             </group>
         </dependencies>
     </metadata>

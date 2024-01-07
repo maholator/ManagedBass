@@ -10,7 +10,7 @@
   <Import Project="..\Shared\Shared.projitems" Label="Shared" />
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Bass\Portable\Bass.csproj" />
+    <PackageReference Include="ppy.ManagedBass" Version="2022.1216.0" />
   </ItemGroup>
 
 </Project>
